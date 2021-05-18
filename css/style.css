@@ -1,0 +1,65 @@
+/* Black: #111
+Grey: #525252
+white
+coral
+lightcoral 
+
+Font-family: ‘Roboto’
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+img {
+  max-width: 100%;
+}
+/* Buttons */
+.orange_button {
+  background-color: coral;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.black_button {
+  background-color: #525252;
+  color: #fff;
+  border-radius: 2px;
+  border: none;
+}
+.white_button {
+  background-color: #fff;
+  box-shadow: 0 0 3px #525252;
+  border-radius: 2px;
+  border: none;
+}
+/* bg colors */
+.bg-color-grey {
+  background-color: #525252;
+}
+/* Text color */
+.text-color-wite {
+  color: #fff;
+}
+.text-color-black {
+  color: #111;
+}
+
+/* Fonts*/
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: 700;
+}
+.fs-16 {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .fs-md-24 {
+    font-size: 24px;
+  }
+}
